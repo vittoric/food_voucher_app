@@ -334,38 +334,6 @@ export default function Component() {
             )}
           </div>
         </div>
-
-        {/* Design Notes */}
-        <div className="mt-12 max-w-4xl mx-auto">
-          <Card className="bg-white/80 backdrop-blur">
-            <CardContent className="p-6">
-              <h3 className="font-bold text-gray-900 mb-4 flex items-center">
-                <Star className="w-5 h-5 text-yellow-500 mr-2" />
-                Design Features Implemented
-              </h3>
-              <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
-                <div>
-                  <h4 className="font-semibold mb-2">Visual Design</h4>
-                  <ul className="space-y-1">
-                    <li>• Professional blue color scheme (#2563EB)</li>
-                    <li>• Modern gradients and shadows</li>
-                    <li>• Clean typography hierarchy</li>
-                    <li>• Mobile-first responsive design</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">User Experience</h4>
-                  <ul className="space-y-1">
-                    <li>• Smooth micro-interactions</li>
-                    <li>• Loading states and animations</li>
-                    <li>• Security-focused messaging</li>
-                    <li>• Accessible design patterns</li>
-                  </ul>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
       </div>
     </div>
   )
