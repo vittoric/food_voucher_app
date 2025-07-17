@@ -83,7 +83,7 @@ export default function Component() {
 
                   {/* Subtext */}
                   <p className="text-gray-600 text-center mb-8 leading-relaxed">
-                    Your personal food voucher, protected by advanced phone verification
+                    Your personal food voucher, protected by advanced API's
                   </p>
 
                   {/* CTA Button */}
@@ -223,7 +223,7 @@ export default function Component() {
                         </div>
                         <div>
                           <p className="text-gray-300 text-xs">BALANCE</p>
-                          <p className="text-white font-semibold">$250.00</p>
+                          <p className="text-white font-semibold">€250.00</p>
                         </div>
                       </div>
                     </CardContent>
@@ -273,8 +273,8 @@ export default function Component() {
 
                     <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-4 text-white">
                       <p className="text-blue-100 text-sm">Available Balance</p>
-                      <p className="text-2xl font-bold">$186.50</p>
-                      <p className="text-blue-100 text-sm mt-1">Spent this month: $63.50</p>
+                      <p className="text-2xl font-bold">€186.50</p>
+                      <p className="text-blue-100 text-sm mt-1">Spent this month: €63.50</p>
                     </div>
                   </div>
 
@@ -291,11 +291,11 @@ export default function Component() {
                     <h3 className="font-semibold text-gray-900 mb-3">Recent Transactions</h3>
 
                     {[
-                      { restaurant: "Subway Downtown", amount: "$12.50", time: "2:30 PM", verified: true },
-                      { restaurant: "Starbucks Coffee", amount: "$8.75", time: "10:15 AM", verified: true },
-                      { restaurant: "Pizza Palace", amount: "$18.25", time: "Yesterday", verified: true },
-                      { restaurant: "Green Salad Co.", amount: "$14.00", time: "2 days ago", verified: true },
-                      { restaurant: "Burger King", amount: "$10.00", time: "3 days ago", verified: true },
+                      { restaurant: "Subway Downtown", amount: "€12.50", time: "2:30 PM", verified: true },
+                      { restaurant: "Starbucks Coffee", amount: "€8.75", time: "10:15 AM", verified: true },
+                      { restaurant: "Pizza Palace", amount: "€18.25", time: "Yesterday", verified: true },
+                      { restaurant: "Green Salad Co.", amount: "€14.00", time: "2 days ago", verified: true },
+                      { restaurant: "Burger King", amount: "€10.00", time: "3 days ago", verified: true },
                     ].map((transaction, index) => (
                       <Card key={index} className="border border-gray-100 hover:shadow-md transition-shadow">
                         <CardContent className="p-4">
