@@ -57,7 +57,7 @@ export default function Component() {
 
         {/* Mobile Screens Container */}
         <div className="flex justify-center">
-          <div className="w-full max-w-sm">
+          <div className="w-full max-w-sm mx-2.5">
             {/* Screen 1: Welcome & Onboarding */}
             {currentScreen === 0 && (
               <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
